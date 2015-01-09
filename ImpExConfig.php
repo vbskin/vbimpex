@@ -35,9 +35,9 @@ $impexconfig['passcode']	= 'test';
 */
 
 $impexconfig['target']['server']		= 'localhost';
-$impexconfig['target']['user']			= 'dd';
-$impexconfig['target']['password']		= 'password';
-$impexconfig['target']['database']		= 'vbulletin_forum';
+$impexconfig['target']['user']			= 'bahram_2';
+$impexconfig['target']['password']		= 'N]DLH)PmJvTD';
+$impexconfig['target']['database']		= 'bahram_forum';
 $impexconfig['target']['tableprefix']	= '';
 
 /*
@@ -59,10 +59,10 @@ $impexconfig['sourceexists']			= true;
 // mysql / mssql
 $impexconfig['source']['databasetype']	= 'mysql';  // mysql OR mssql
 $impexconfig['source']['server']		= 'localhost';
-$impexconfig['source']['user']			= 'username';
-$impexconfig['source']['password']		= 'password';
-$impexconfig['source']['database']		= 'source';
-$impexconfig['source']['tableprefix']   = '';
+$impexconfig['source']['user']			= 'bahram_1';
+$impexconfig['source']['password']		= 'iqnT*BhK,-PV';
+$impexconfig['source']['database']		= 'bahram_1';
+$impexconfig['source']['tableprefix']   = 'mybb_';
 
 /*
 ####
@@ -88,11 +88,11 @@ define('dupe_checking', false);
 
 // Advanced Target
 $impexconfig['target']['databasetype']	= 'mysql';	// currently mysql only
-$impexconfig['target']['charset']		= '';
+$impexconfig['target']['charset']		= 'utf8';
 $impexconfig['target']['persistent']	= false; 	// (true/false) use mysql_pconnect
 
 // Advanced Source
-$impexconfig['source']['charset']		= '';
+$impexconfig['source']['charset']		= 'utf8';
 $impexconfig['source']['persistent']	= false;
 
 //pagespeed is the second(s) wait before the page refreshes.
