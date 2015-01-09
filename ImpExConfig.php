@@ -35,7 +35,7 @@ $impexconfig['passcode']	= 'test';
 */
 
 $impexconfig['target']['server']		= 'localhost';
-$impexconfig['target']['user']			= 'username';
+$impexconfig['target']['user']			= 'dd';
 $impexconfig['target']['password']		= 'password';
 $impexconfig['target']['database']		= 'vbulletin_forum';
 $impexconfig['target']['tableprefix']	= '';
